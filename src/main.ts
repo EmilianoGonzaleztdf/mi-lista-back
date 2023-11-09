@@ -4,7 +4,7 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.enableCors( {
-    origin:['https://lista-back.onrender.com/'],
+    origin:['https://lista-tarea-ecd66.web.app/'],
     methods : 'GET, PUT, POST, DELETE, PATH', 
     credentials: true
   });
